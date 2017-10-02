@@ -1,6 +1,6 @@
 {
-    "name": "infyomlabs/laravel-generator",
-    "description": "InfyOm Laravel Generator",
+    "name": "denisgold/laravel-generator",
+    "description": "Individual API+Neo4j Laravel Generator for AngularJS",
     "keywords": [
         "laravel",
         "api",
