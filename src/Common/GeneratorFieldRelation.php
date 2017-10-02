@@ -71,6 +71,7 @@ class GeneratorFieldRelation
 
         $template = str_replace('$RELATIONSHIP_CLASS$', $relationClass, $template);
         $template = str_replace('$FUNCTION_NAME$', $functionName, $template);
+        $template = str_replace('$RELATION_KEY$', 'has_' . strtolower($functionName), $template);
         $template = str_replace('$RELATION$', $relation, $template);
         $template = str_replace('$RELATION_MODEL_NAME$', $modelName, $template);
 
