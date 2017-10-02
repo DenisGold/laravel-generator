@@ -103,7 +103,7 @@ class ModelGenerator extends BaseGenerator
             $templateData = str_replace('$SOFT_DELETE_DATES$', '', $templateData);
         } else {
             $templateData = str_replace(
-                '$SOFT_DELETE_IMPORT$', "use Illuminate\\Database\\Eloquent\\SoftDeletes;\n",
+                '$SOFT_DELETE_IMPORT$', "use Vinelab\\NeoEloquent\\Eloquent\\SoftDeletes;\n",
                 $templateData
             );
             $templateData = str_replace('$SOFT_DELETE$', infy_tab()."use SoftDeletes;\n", $templateData);
